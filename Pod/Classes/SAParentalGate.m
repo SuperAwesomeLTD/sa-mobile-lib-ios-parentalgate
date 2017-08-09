@@ -170,6 +170,10 @@ static UIWindow         *topWindow;
         
         // send pg cancel delegate call
         pgfailedcallback();
+        
+        //
+        // stop
+        [self stop];
     };
     
     // alert view (controller)
