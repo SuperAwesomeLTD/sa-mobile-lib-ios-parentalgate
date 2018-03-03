@@ -1,0 +1,16 @@
+PODS:
+  - SAParentalGate (1.0.2)
+
+DEPENDENCIES:
+  - SAParentalGate (from `../`)
+
+EXTERNAL SOURCES:
+  SAParentalGate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SAParentalGate: f3d3701fd4e01a1be4fb31c8d20d34cfc58293c7
+
+PODFILE CHECKSUM: fe1fd878d644a6af6f0403edd5c28fc1948921e6
+
+COCOAPODS: 1.4.0

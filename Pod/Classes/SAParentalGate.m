@@ -88,7 +88,7 @@ static UIWindow         *topWindow;
         actionBlock continueBlock = ^(UIAlertAction *action) {
             
             // get number from text field
-            UITextField *textField = [[_challangeAlertController textFields] firstObject];
+            UITextField *textField = [[self.challangeAlertController textFields] firstObject];
             NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
             [f setNumberStyle:NSNumberFormatterDecimalStyle];
             NSNumber *input = [f numberFromString:textField.text];

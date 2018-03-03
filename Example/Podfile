@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAParentalGate_Example' do
+  pod 'SAParentalGate', :path => '../'
+
+  target 'SAParentalGate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

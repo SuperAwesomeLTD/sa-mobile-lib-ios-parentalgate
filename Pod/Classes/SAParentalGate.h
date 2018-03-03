@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^sapgcallback)();
+typedef void (^sapgcallback)(void);
 
 @interface SAParentalGate : NSObject
 
