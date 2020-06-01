@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name = 'SAParentalGate'
-  s.version = '1.0.2'
+  s.version = '1.0.3'
   s.summary = 'Parental Gate for iOS SDK'
   s.description = <<-DESC
    Parental Gate for the iOS SDK - basically opens a popup
                        DESC
   s.homepage = 'https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-parentalgate'
   s.license = {
-        :type => 'GNU GENERAL PUBLIC LICENSE Version 3',
+        :type => 'GNU LESSER GENERAL PUBLIC LICENSE Version 3',
         :file => 'LICENSE'
   }
   s.author = { 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source = {
 	:git => 'https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-parentalgate.git', 
 	:branch => 'master',
-	:tag => '1.0.2' 
+	:tag => '1.0.3' 
   }
   s.ios.deployment_target = '8.0'
   s.source_files = 'Pod/Classes/**/*'
